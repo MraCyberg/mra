@@ -1,7 +1,6 @@
 export default function handler(req, res) {
   res.status(200).json({
     ok: true,
-    vercel: true,
-    time: new Date().toISOString()
+    message: "hello"
   });
 }
